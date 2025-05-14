@@ -11,4 +11,5 @@ In the control box you will find the following things:
 + An AC/DC converter 12Vdc
 + A Solid state relay
 + A 220Vac Filter
++ 
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
