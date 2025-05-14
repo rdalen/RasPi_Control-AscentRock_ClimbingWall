@@ -6,4 +6,4 @@ In this project the PIC controller on the Control&sensor board in the Ascent Roc
 
 ## The Control box
 
-
+![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
