@@ -13,3 +13,6 @@ In the control box you will find the following things:
 + A 220Vac Filter
   
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
+
+On the Control & Sensor board there is a PIC controller that provides the local control.
+
