@@ -16,4 +16,4 @@ In the control box you will find the following things:
 
 On the Control & Sensor board there is a PIC controller that provides the local control.
 
-
+![Image](https://github.com/user-attachments/assets/2da3267c-452e-43a8-9560-4fa38db01cc0)
