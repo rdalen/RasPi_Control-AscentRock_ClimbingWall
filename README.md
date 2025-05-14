@@ -18,3 +18,6 @@ On the Control & Sensor board there is a PIC controller that provides the local 
 **Hence the position of pin 1**
 
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
+
+This PIC Controller can be removed from the board and replaced bij an adapter interface.
+**Hence again the position of pin1**
