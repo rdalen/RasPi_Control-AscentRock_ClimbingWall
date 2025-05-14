@@ -3,3 +3,5 @@ This project makes it possible to control your [Ascent FunRock Rotating Climbing
 The climbing wall is originally controlled by a windows computer via a serial interface.
 There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer. 
 In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi
+
+## The Control box
