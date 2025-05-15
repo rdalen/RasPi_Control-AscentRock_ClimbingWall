@@ -18,12 +18,13 @@ On the Control & Sensor board there is a PIC controller that provides the local 
 **Hence the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
-This PIC Controller can be removed from the board and replaced bij an adapter interface.
-**Hence again the position of pin1**
+This PIC Controller can be removed from the board and replaced bij an adapter interface. Pin1 is indicated
+
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 
+Position of the adapter interface on the Control&Sensor board. **Hence again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
 Interface on the RasPi side of the cable.
