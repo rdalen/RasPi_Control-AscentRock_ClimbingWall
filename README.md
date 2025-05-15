@@ -40,7 +40,8 @@ The RasPi has small magnets on the back, so that it can be easily attached in th
 
 ### Software
 The control is made in Node-Red. For now, the control is very basic
-+ It read the three Test buttons on the Control&Sensor board
-  + Incline + Button (with 500ms delay to set the direction relay (K3) properly)
-  + Incline - Button (with 500ms delay to set the direction relay (K3) properly)
-  + Speed Button (25% of the max speed)
++ It reads the three Test buttons on the Control&Sensor board to test the Incline Motor and the Speed Motor:
+  + The Incline + Button (the incline motor with 500ms delay to set the direction relay (K3) first)
+  + The Incline - Button (with 500ms delay to set the direction relay (K3) first)
+  + The Speed Button (25% of the max speed
++
