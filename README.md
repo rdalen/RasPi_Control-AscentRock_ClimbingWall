@@ -27,6 +27,6 @@ Position of the adapter interface on the Control&Sensor board when the PIC Contr
 **Hence again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
-Interface on the RasPi side of the cable.
+Interface on the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
