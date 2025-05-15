@@ -35,13 +35,12 @@ To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be 
 Interface on the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
-The RasPi has small magnets on the back, so that it can be easily attached in the Control Box.
-(if the magnatic force is insufficient, a second set of magnets can be glued to the wall of the control box)
+The RasPi has small magnets on the back, so that it can be easily attached in the Control Box (if the magnetic force is insufficient, a second set of magnets can be glued to the wall of the control box).
 ![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
 
 ### Software
 The control is made in Node-Red. For now, it is a very basic control
 + It read the three Test buttons on the Control&Sensor board
-++ Incline +
-++ Incline -
-++ Speed
+  + Incline + Button (with 500ms delay to set the direction relay (K3) properly)
+  + Incline - Button (with 500ms delay to set the direction relay (K3) properly)
+  + Speed Button (25% of the max speed)
