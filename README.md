@@ -39,7 +39,7 @@ The RasPi has small magnets on the back, so that it can be easily attached in th
 ![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
 
 ### Software
-The control is made in Node-Red. For now, it is a very basic control
+The control is made in Node-Red. For now, the control is very basic
 + It read the three Test buttons on the Control&Sensor board
   + Incline + Button (with 500ms delay to set the direction relay (K3) properly)
   + Incline - Button (with 500ms delay to set the direction relay (K3) properly)
