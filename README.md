@@ -18,7 +18,8 @@ On the Control & Sensor board there is a PIC controller that provides the local 
 **Hence the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
-This PIC Controller can be removed from the board and replaced bij an adapter interface. Pin1 is indicated
+## Hardware modifications
+This PIC Controller must be removed from the board and replaced bij an adapter interface. Pin1 is indicated
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
@@ -27,8 +28,20 @@ Position of the adapter interface on the Control&Sensor board when the PIC Contr
 **Hence again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
+To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
+![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
+
+## The Raspberry Pi
 Interface on the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
-To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
-![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
+The RasPi has small magnets on the back, so that it can be easily attached in the Control Box.
+(if the magnatic force is insufficient, a second set of magnets can be glued to the wall of the control box)
+![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
+
+### Software
+The control is made in Node-Red. For now, it is a very basic control
++ It read the three Test buttons on the Control&Sensor board
+++ Incline +
+++ Incline -
+++ Speed
