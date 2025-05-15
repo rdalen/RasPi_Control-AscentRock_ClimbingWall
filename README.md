@@ -27,3 +27,6 @@ This PIC Controller can be removed from the board and replaced bij an adapter in
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
+
+
+`code`
