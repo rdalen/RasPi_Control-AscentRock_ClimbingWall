@@ -53,8 +53,8 @@ The control is made in Node-Red. For now, the control is very basic
 
 ## Commissioning of the Climbing wall
 To put the climbing wall in operation
-1 make the hardware modifications
+1. make the hardware modifications
   - replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
-2 
+2. 
   
