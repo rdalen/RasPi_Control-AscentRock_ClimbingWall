@@ -15,17 +15,17 @@ In the control box you will find the following things:
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
 
 On the Control & Sensor board there is a PIC controller that provides the local control.
-**Hence the position of pin 1**
+**Watch the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
 ## Hardware modifications
-This PIC Controller must be removed from the board and replaced bij an adapter interface. Pin1 is indicated
+This PIC Controller (A2) must be removed from the board and replaced bij an adapter interface. Pin1 is indicated
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 
 Position of the adapter interface on the Control&Sensor board when the PIC Controller is removed.\
-**Hence again the position of pin1**
+**Watch again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
 To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
@@ -50,3 +50,11 @@ The control is made in Node-Red. For now, the control is very basic
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
   +  Indication that the incline motor is running
 ![Image](https://github.com/user-attachments/assets/666d28d2-0700-41e1-90de-c6a6ea60532c)
+
+## Commissioning of the Climbing wall
+To put the climbing wall in operation
+1 make the hardware modifications
+  - replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
+  - Bridge or replace the diode CR5 by a wire
+2 
+  
