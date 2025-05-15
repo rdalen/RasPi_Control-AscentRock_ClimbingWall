@@ -28,4 +28,6 @@ This PIC Controller can be removed from the board and replaced bij an adapter in
 
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
+Interface on the RasPi side of the cable.
+
 
