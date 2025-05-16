@@ -88,7 +88,8 @@ Next give the RasPi a static IP adress in your Router (e.g. in the DHCP settings
 To put the Climbing Wall in operation:
 1. Make the hardware modifications first:
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
-  - Bridge or replace the diode CR5 by a wire
+  - Bridge or replace the diode CR5 on the Control&Sensor board by a wire
+  - Bridge pin 1 and pin 2 of the Safety sensors connector J7 d to J7 (and J11) on the Control&Sensor board.
 2. Power up the RasPi (it takes a few minutes to boot up).
 3. Connect the 22V0ac mains to the ControlBox. If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
 4. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
