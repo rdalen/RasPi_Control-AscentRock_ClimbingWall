@@ -63,4 +63,5 @@ To put the climbing wall in operation
   - Bridge or replace the diode CR5 by a wire
 2. 
 
-Node-Red; type in browser "<ip-adres>:1880"
+Node-Red; type in browser
+`ip-adres>:1880`
