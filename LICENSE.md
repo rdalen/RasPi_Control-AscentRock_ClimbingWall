@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 RDalen and JDegger
+Copyright (c) 2025 RvDalen and JDegger
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
