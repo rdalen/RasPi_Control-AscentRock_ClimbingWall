@@ -55,9 +55,9 @@ It reads the three Test buttons on the Control&Sensor board to test the Incline 
 
 Node-Red provides a user interface too. Node-red Dashboard can be accessed via a browser at address:: `http://<ip-address>:1880/ui`\
 The dashboard provides:
-  +  A Slider to control the speed of the speedmotor and stop button
-  +  Incline + and Incline - buttons to control the Incline motor and a stop button
-  +  Indication that the incline motor is running
+  -  A Slider to control the speed of the speedmotor and stop button
+  -  Incline + and Incline - buttons to control the Incline motor and a stop button
+  -  Indication that the incline motor is running
 
 ![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
@@ -67,10 +67,10 @@ To get access to he RasPi the WIFI credentials must be entered first.
 - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
 - Power up the RasPi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
 - Open Raspi-Config `sudo raspi-config`
-![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
 - Select System Options and press Enter
-![Image](https://github.com/user-attachments/assets/a823daf3-3cf0-4b75-8198-a495e948614d)
+![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
 - Select Wireless LAN and then follow the on-screen instructions to enter your network’s SSID and password. When you’re done, select “Finish” on the main menu to close Raspi-Config.
+![Image](https://github.com/user-attachments/assets/a823daf3-3cf0-4b75-8198-a495e948614d)
 - Finally, reboot the Raspberry Pi to apply the settings we’ve just changed.
 
 ### Test the WIFI connection
