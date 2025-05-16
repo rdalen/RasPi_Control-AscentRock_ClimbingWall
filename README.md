@@ -7,7 +7,7 @@ In this project the PIC controller on the Control&sensor board in the Ascent Roc
 ## The Control Box 
 In the control box you will find the following things:
 + A [Motordriver Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20motordriverBoard.pdf)
-+ A Control&Sensor Board
++ A [Control&Sensor Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + An AC/DC converter 12Vdc
 + A Solid state relay
 + A 220Vac Filter (dismounted on the picture)
