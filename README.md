@@ -18,8 +18,8 @@ On the Control & Sensor board there is a PIC controller in a socket that provide
 **Watch the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
-## Hardware modifications
-This PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced bij an adapter interface. Pin1 is indicated.\
+## [Hardware modifications](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf)
+The PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced bij an adapter interface. Pin1 is indicated.\
 Each of the three outputs has a LED indicator to check the RasPi output signals
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 
