@@ -19,14 +19,14 @@ In the Control Box you will find the following things:
   
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
 
-On the Control & Sensor Board is the main component a PIC controller that provides the local control.
+On the Control & Sensor Board the main component is a PIC controller that provides the local control.
 **Watch the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
 ## Hardware modifications
 The following [Hardware modifications](docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf) must be made:
 1. The PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced by an adapter interface. Pin1 is indicated.\
-Each of the three outputs has a LED indicator to check the RasPi output signals
+Each of the three outputs has a LED indicator to check the RasPi output signals.
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 ![Image](https://github.com/user-attachments/assets/e556ef24-e326-4583-9149-f25a6315d7b8)<br/>
