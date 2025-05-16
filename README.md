@@ -34,6 +34,8 @@ Position of the adapter interface on the Control&Sensor board when the PIC Contr
 To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
 ![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
 
+![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
+
 ## The Raspberry Pi
 Interface on the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
