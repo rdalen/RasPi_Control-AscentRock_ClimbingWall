@@ -1,15 +1,18 @@
-# Raspberry Pi control for the Ascent FunRock Climbing wall
+# Raspberry Pi control for the Ascent FunRock Rotating Climbing wall
 This project makes it possible to control your [Ascent FunRock Rotating Climbing wall](https://www.youtube.com/watch?v=9913A6JC2e4) using a Raspberry Pi.
 
 The climbing wall is originally controlled by a windows computer via a serial interface.
 
 There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer.
 
-In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi
+In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi.
+
+Since I couldn't find schematics I made these myself via reverse engineering. So there may be some errors in the diagrams!
 
 ## The Control Box 
 In the control box you will find the following things:
 + A [Motordriver Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20motordriverBoard.pdf)
++ A [Control&Sensor Board](docs/Ascent Rock climbing wall - control&sensorBoard.pdf)
 + A [Control&Sensor Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + An AC/DC converter 12Vdc
 + A Solid state relay
@@ -96,7 +99,7 @@ To put the Climbing Wall in operation:
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
 
 ## Safety & Disclaimer
-The maintainers of this repository disclaims any responsible for damage, harm or injuries made by using the information on this repository.
+The maintainers of this repository disclaims any responsibility for damage, harm or injuries made by using the information on this repository.
 
 Use at your own risks. For more information we kindly refer you to attached [LICENSE.md](LICENSE.md).
 
