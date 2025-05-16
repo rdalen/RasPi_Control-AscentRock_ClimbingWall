@@ -40,7 +40,7 @@ The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the 
 To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire to enable the solid-state relay to provide 220Vac to the motors
 ![Image](https://github.com/user-attachments/assets/ae8c4b25-6c92-446a-ac79-8f18d6242598)
 
-![Image](https://github.com/user-attachments/assets/6ccf2c52-f693-4a04-ab74-cec929076c48)
+![Image](https://github.com/user-attachments/assets/216d6d0c-3149-475c-9b34-b506e2e61128)
 
 ## The Raspberry Pi
 Interface on the RasPi side of the interface cable.
