@@ -44,7 +44,7 @@ To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire  s
 ![Image](https://github.com/user-attachments/assets/216d6d0c-3149-475c-9b34-b506e2e61128)
 
 ## The Raspberry Pi
-in the picture you see the interface at the RasPi side of the interface cable.
+In the picture you see the interface at the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
 The RasPi has small magnets on the back, so that it can be easily attached in the Control Box (if the magnetic force is insufficient, the second set of magnets can be glued to the wall of the control box).
