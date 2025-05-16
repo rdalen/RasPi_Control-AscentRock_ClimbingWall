@@ -7,7 +7,7 @@ There are several [projects](https://github.com/james-schaefer/climbing_wall) th
 
 In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaced by a interface-adapter to a Raspberry Pi.
 
-Since I couldn't find schematics I made these myself via reverse engineering. So there may be some errors in the diagrams!
+Since I couldn't find elektronic schematics I made these myself via reverse engineering. So there may be some errors in the diagrams!
 
 ## The Control Box 
 In the control box you will find the following things:
