@@ -25,6 +25,8 @@ The outputs has a LED indicator
 
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 
+![Image](https://github.com/user-attachments/assets/e556ef24-e326-4583-9149-f25a6315d7b8)
+
 Position of the adapter interface on the Control&Sensor board when the PIC Controller is removed.\
 **Watch again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
