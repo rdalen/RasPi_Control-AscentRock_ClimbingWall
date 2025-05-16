@@ -44,27 +44,34 @@ The RasPi has small magnets on the back, so that it can be easily attached in th
 ![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
 
 ### Software
-The control is made in Node-Red. For now, the control is very basic
-+ It reads the three Test buttons on the Control&Sensor board to test the Incline Motor and the Speed Motor:
-  + The Incline + Button (the incline motor with 500ms delay to set the direction relay (K3) first)
+The control is made in Node-Red. For now, the control is very basic.\
+To access Node-Red, type in the browser: `http://<ip-address>:1880`
+It reads the three Test buttons on the Control&Sensor board to test the Incline Motor and the Speed Motor:
+  + The Incline + Button (the incline motor has a 500ms delay to set the direction relay (K3) first)
   + The Incline - Button (with 500ms delay to set the direction relay (K3) first)
-  + The Speed Button (25% of the max speed)
-  + To access Node-Red, type in browser: `http://<ip-address>:1880`
+  + The Speed Button (25% of the max speed and with 500ms delay (oopsy delay))
 
 ![Image](https://github.com/user-attachments/assets/7d8e421f-052d-4e50-84a8-b23413c0e593)
-+ An User interface;
-  +  Slider to control the speed of the speedmotor and stop button
+
+To access the Node-Red User interface (Dashboard) type in the browser: `http://<ip-address>:1880/ui`
+It provides:
+  +  A Slider to control the speed of the speedmotor and stop button
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
   +  Indication that the incline motor is running
-  +  To access Node-Red Dashboard , type in browser: `http://<ip-address>:1880/ui`
+
 ![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
 ## Commissioning of the Climbing wall
-To put the climbing wall in operation
-1. Make the hardware modifications
+To put the climbing wall in operation:
+1. Make the hardware modifications first:
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
-2. 
+2. Configure WIFI on the RasPi
+  - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
+  - Power up the Raspberry Pi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
+  - Open Raspi-Config `sudo raspi-config`
+3. 
+4. Open in Windows
 
 accessing Node-Red; type in browser
 `http://<ip-address>:1880`\
