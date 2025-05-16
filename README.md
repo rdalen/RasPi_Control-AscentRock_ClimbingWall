@@ -12,7 +12,7 @@ Since I couldn't find schematics I made these myself via reverse engineering. So
 ## The Control Box 
 In the control box you will find the following things:
 + A [Motordriver Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20motordriverBoard.pdf)
-+ A [Control&Sensor Board]([docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf))
++ A [Control&Sensor Board](docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + A [Control&Sensor Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + An AC/DC converter 12Vdc
 + A Solid state relay
