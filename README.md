@@ -67,7 +67,7 @@ To get access to he RasPi the WIFI credentials must be entered first.
 - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
 - Power up the RasPi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
 - Open Raspi-Config `sudo raspi-config`
-- Select System Options and press Enter
+- Select 1-System Options and press Enter
 ![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
 - Select Wireless LAN and then follow the on-screen instructions to enter your network’s SSID and password. When you’re done, select “Finish” on the main menu to close Raspi-Config.
 ![Image](https://github.com/user-attachments/assets/a823daf3-3cf0-4b75-8198-a495e948614d)
