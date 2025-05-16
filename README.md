@@ -95,7 +95,7 @@ To put the Climbing Wall in operation:
 2. Power up the RasPi (it takes a few minutes to boot up).
 3. Connect the 220Vac mains to the Control Box. 
     - If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
-4. Try to operate the Incline en Speed motors by pressing the Test Buttons on The Control & Sensor Board
+4. Try to operate the Incline en Speed motors by pressing the Test Buttons on The Control & Sensor Board longer then 500ms
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
 
 ## Safety & Disclaimer
