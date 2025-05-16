@@ -31,7 +31,7 @@ Each of the three outputs has a LED indicator to check the RasPi output signals.
 ![Image](https://github.com/user-attachments/assets/e970b072-6869-4e7e-af19-e41e519ca6de)
 ![Image](https://github.com/user-attachments/assets/e556ef24-e326-4583-9149-f25a6315d7b8)<br/>
 Place the adapter interface in the empty PIC Controller socket.\
-**Watch again the position of pin1**
+**Watch again the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
 2. To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced by a wire).
