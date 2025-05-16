@@ -61,19 +61,27 @@ It provides:
 
 ![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
+
+## Configure WIFI on the RasPi
+- Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
+- Power up the RasPi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
+- Open Raspi-Config `sudo raspi-config`
+![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
+- Select System Options and press Enter
+![Image](https://github.com/user-attachments/assets/a823daf3-3cf0-4b75-8198-a495e948614d)
+- Select Wireless LAN and then follow the on-screen instructions to enter your network’s SSID and password. When you’re done, select “Finish” on the main menu to close Raspi-Config.
+- Finally, reboot the Raspberry Pi to apply the settings we’ve just changed.
+
+### Test the WIFI connection
+To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
+![Image](https://github.com/user-attachments/assets/748777c5-0e88-4cd4-8c2e-074695c4cb0c)
+Next give the RasPi a static IP adress in your Router (eg in the DHCP settings-menu make a IP reservation) and Reboot the RasPi `sudo reboot` and check the IP again. Now you can access the RasPi wireless by any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
+
 ## Commissioning of the Climbing wall
 To put the climbing wall in operation:
 1. Make the hardware modifications first:
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
-2. Configure WIFI on the RasPi
-  - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
-  - Power up the Raspberry Pi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
-  - Open Raspi-Config `sudo raspi-config`
-3. 
-4. Open in Windows
-
-accessing Node-Red; type in browser
-`http://<ip-address>:1880`\
-Node-Red Dashboard; type in browser
-`http://<ip-address>:1880/ui`
+2 - Power up the RasPi and wait a few minutes to boot up.
+3. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
+4. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` and operate the Incline en Speed motors
