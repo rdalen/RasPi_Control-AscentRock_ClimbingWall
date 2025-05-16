@@ -54,7 +54,7 @@ The control is made in Node-Red. For now, the control is very basic
   +  Slider to control the speed of the speedmotor and stop button
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
   +  Indication that the incline motor is running
-![Image](https://github.com/user-attachments/assets/666d28d2-0700-41e1-90de-c6a6ea60532c)
+![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
 ## Commissioning of the Climbing wall
 To put the climbing wall in operation
