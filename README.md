@@ -45,7 +45,7 @@ The RasPi has small magnets on the back, so that it can be easily attached in th
 
 ### Software
 The control is made in Node-Red. For now, the control is very basic.\
-To access Node-Red, type in the browser: `http://<ip-address>:1880`
+Node-red can be accessed via a browser at address: `http://<ip-address>:1880`
 It reads the three Test buttons on the Control&Sensor board to test the Incline Motor and the Speed Motor:
   + The Incline + Button (the incline motor has a 500ms delay to set the direction relay (K3) first)
   + The Incline - Button (with 500ms delay to set the direction relay (K3) first)
@@ -53,7 +53,7 @@ It reads the three Test buttons on the Control&Sensor board to test the Incline 
 
 ![Image](https://github.com/user-attachments/assets/7d8e421f-052d-4e50-84a8-b23413c0e593)
 
-To access the Node-Red User interface (Dashboard) type in the browser: `http://<ip-address>:1880/ui`
+Node-Red provides a user interface too. Node-red Dashboard can be accessed via a browser at address:: `http://<ip-address>:1880/ui`
 It provides:
   +  A Slider to control the speed of the speedmotor and stop button
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
