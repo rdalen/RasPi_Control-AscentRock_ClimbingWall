@@ -62,4 +62,5 @@ To put the climbing wall in operation
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
 2. 
-  
+
+Node-Red; type in browser <ip-adres>:1880
