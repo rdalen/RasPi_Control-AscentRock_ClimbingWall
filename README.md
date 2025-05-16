@@ -68,7 +68,7 @@ The dashboard provides:
 
 ![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
-**Caution! Because the software does not include a safety feature, the <ins>only</ins> safety measures to stop the incline motor are two small mercury switches on the Control & Sensor Board that measure the position of the ControlBox.**
+**Caution! Because the software does not include a safety feature, the <ins>only</ins> safety measures to stop the incline motor are two small mercury switches (S6 & S7) on the Control & Sensor Board that measure the position of the ControlBox.**
 
 ## Configure WIFI on the RasPi
 To get access to he RasPi the WIFI credentials must be entered first.
