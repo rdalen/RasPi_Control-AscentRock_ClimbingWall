@@ -1,4 +1,4 @@
-# Raspberry Pi control for the Ascent FunRock Rotating Climbing wall
+# Raspberry Pi control for the Ascent FunRock Rotating Climbing Wall
 This project makes it possible to control your [Ascent FunRock Rotating Climbing wall](https://www.youtube.com/watch?v=9913A6JC2e4) using a Raspberry Pi.
 
 The climbing wall is originally controlled by a windows computer via a serial interface.
