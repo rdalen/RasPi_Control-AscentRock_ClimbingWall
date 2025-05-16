@@ -1,16 +1,18 @@
-# Raspberry Pi control for the Ascent FunRock Climbing wall
+# Raspberry Pi control for the Ascent FunRock Rotating Climbing wall
 This project makes it possible to control your [Ascent FunRock Rotating Climbing wall](https://www.youtube.com/watch?v=9913A6JC2e4) using a Raspberry Pi.
 
 The climbing wall is originally controlled by a windows computer via a serial interface.
 
 There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer.
 
-In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi
+In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi.
+
+Since I couldn't find schematics I made these myself via reverse engineering. So there may be some errors in the diagrams!
 
 ## The Control Box 
 In the control box you will find the following things:
-+ A [Motordriver Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20motordriverBoard.pdf)
-+ A [Control&Sensor Board](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
++ A [Motordriver Board](docs/Ascent%20Rock%20climbing%20wall%20-%20motordriverBoard.pdf)
++ A [Control&Sensor Board](docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + An AC/DC converter 12Vdc
 + A Solid state relay
 + A 220Vac Filter (dismounted on the picture)
@@ -22,7 +24,7 @@ On the Control & Sensor board there is a PIC controller in a socket that provide
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
 ## Hardware modifications
-The following [Hardware modifications](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf) must be made:
+The following [Hardware modifications](docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf) must be made:
 1. The PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced bij an adapter interface. Pin1 is indicated.\
 Each of the three outputs has a LED indicator to check the RasPi output signals
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
@@ -96,7 +98,7 @@ To put the Climbing Wall in operation:
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
 
 ## Safety & Disclaimer
-The maintainers of this repository disclaims any responsible for damage, harm or injuries made by using the information on this repository.
+The maintainers of this repository disclaims any responsibility for damage, harm or injuries made by using the information on this repository.
 
 Use at your own risks. For more information we kindly refer you to attached [LICENSE.md](LICENSE.md).
 
