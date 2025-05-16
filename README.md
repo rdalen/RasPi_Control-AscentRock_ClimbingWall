@@ -15,7 +15,7 @@ In the control box you will find the following things:
 + A [Control&Sensor Board](docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard.pdf)
 + An AC/DC converter 12Vdc
 + A Solid state relay
-+ A 220Vac Filter (dismounted on the picture)
++ A 220Vac Filter (dismounted in this picture)
   
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
 
