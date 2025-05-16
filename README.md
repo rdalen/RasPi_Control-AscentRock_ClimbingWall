@@ -18,8 +18,9 @@ On the Control & Sensor board there is a PIC controller in a socket that provide
 **Watch the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
-## [Hardware modifications](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf)
-The PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced bij an adapter interface. Pin1 is indicated.\
+## Hardware modifications
+The following [Hardware modifications](https://github.com/rdalen/RasPi_Control-AscentRock_ClimbingWall/blob/main/docs/Ascent%20Rock%20climbing%20wall%20-%20control%26sensorBoard%20-%20modification.pdf must be made
+1. The PIC Controller (A2) must be removed from the board (pulled out its socket) and replaced bij an adapter interface. Pin1 is indicated.\
 Each of the three outputs has a LED indicator to check the RasPi output signals
 ![Image](https://github.com/user-attachments/assets/c846731c-421d-4253-84c1-664b64dce70d)
 
@@ -31,12 +32,12 @@ Position of the adapter interface on the Control&Sensor board when the PIC Contr
 **Watch again the position of pin1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
-To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
+2. To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced bij een wire).
 ![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
 
 ![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
 
-The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the Control&Sensor board.\
+3. The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the Control&Sensor board.\
 To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire to enable the solid-state relay to provide 220Vac to the motors
 ![Image](https://github.com/user-attachments/assets/ae8c4b25-6c92-446a-ac79-8f18d6242598)
 
