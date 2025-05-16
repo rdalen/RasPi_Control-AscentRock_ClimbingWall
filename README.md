@@ -94,4 +94,5 @@ To put the Climbing Wall in operation:
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
 
 ## Disclaimer
-The owner of this repository disclaims any responsible for damage, harm or injuries made using the information on this repository.\ Use at your own risks. 
+The owner of this repository disclaims any responsible for damage, harm or injuries made using the information on this repository.\
+Use at your own risks. 
