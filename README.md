@@ -91,9 +91,9 @@ To put the Climbing Wall in operation:
 1. Make the hardware modifications first:
     - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
     - Bridge or replace the diode CR5 on the Control & Sensor Board by a wire
-    - Bridge pin 1 and pin 2 of the Safety sensors connector J7 on the Control&Sensor board.
+    - Bridge pin 1 and pin 2 of the Safety sensors connector J7 at the Control & Sensor Board.
 2. Power up the RasPi (it takes a few minutes to boot up).
-3. Connect the 220Vac mains to the ControlBox. 
+3. Connect the 220Vac mains to the Control Box. 
     - If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
 4. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
