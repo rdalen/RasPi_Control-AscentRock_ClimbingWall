@@ -64,4 +64,4 @@ To put the climbing wall in operation
 2. 
 
 Node-Red; type in browser
-`ip-adres>:1880`
+`<ip-adres>:1880`
