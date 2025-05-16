@@ -36,6 +36,12 @@ To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be 
 
 ![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
 
+The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the Control&Sensor board.\
+To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire to enable the solid-state relay to provide 220Vac to the motors
+![Image](https://github.com/user-attachments/assets/ae8c4b25-6c92-446a-ac79-8f18d6242598)
+
+![Image](https://github.com/user-attachments/assets/6ccf2c52-f693-4a04-ab74-cec929076c48)
+
 ## The Raspberry Pi
 Interface on the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
@@ -65,7 +71,7 @@ The dashboard provides:
 ## Configure WIFI on the RasPi
 To get access to he RasPi the WIFI credentials must be entered first.
 - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
-- Power up the RasPi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
+- Power up the RasPi (it takes few minutes to boot up). Log in with `username: pi | password: raspberry`
 - Open Raspi-Config `sudo raspi-config`
 - Select 1-System Options and press Enter
 ![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
@@ -76,13 +82,14 @@ To get access to he RasPi the WIFI credentials must be entered first.
 ### Test the WIFI connection
 To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
 ![Image](https://github.com/user-attachments/assets/748777c5-0e88-4cd4-8c2e-074695c4cb0c)
-Next give the RasPi a static IP adress in your Router (eg in the DHCP settings-menu make a IP reservation) and Reboot the RasPi `sudo reboot` and check the IP again. Now you can access the RasPi wireless by any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
+Next give the RasPi a static IP adress in your Router (e.g. in the DHCP settings-menu make a IP reservation) and Reboot the RasPi `sudo reboot` and check the IP again. Now you can access the RasPi wireless by any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
 
 ## Commissioning of the Climbing wall
 To put the climbing wall in operation:
 1. Make the hardware modifications first:
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
-2 - Power up the RasPi and wait a few minutes to boot up.
-3. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
-4. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` and operate the Incline en Speed motors
+2. Power up the RasPi (it takes a few minutes to boot up).
+3. Connect the 22V0ac mains to the ControlBox. If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
+4. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
+5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` and operate the Incline en Speed motors
