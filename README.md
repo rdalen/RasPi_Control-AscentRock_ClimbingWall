@@ -53,8 +53,8 @@ It reads the three Test buttons on the Control&Sensor board to test the Incline 
 
 ![Image](https://github.com/user-attachments/assets/7d8e421f-052d-4e50-84a8-b23413c0e593)
 
-Node-Red provides a user interface too. Node-red Dashboard can be accessed via a browser at address:: `http://<ip-address>:1880/ui`
-It provides:
+Node-Red provides a user interface too. Node-red Dashboard can be accessed via a browser at address:: `http://<ip-address>:1880/ui`\
+The dashboard provides:
   +  A Slider to control the speed of the speedmotor and stop button
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
   +  Indication that the incline motor is running
