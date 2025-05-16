@@ -85,7 +85,7 @@ To check that the WiFi connection has been established correctly type type in: `
 Next give the RasPi a static IP adress in your Router (e.g. in the DHCP settings-menu make a IP reservation) and Reboot the RasPi `sudo reboot` and check the IP again. Now you can access the RasPi wireless by any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
 
 ## Commissioning of the Climbing wall
-To put the climbing wall in operation:
+To put the Climbing Wall in operation:
 1. Make the hardware modifications first:
   - Replace the PIC Controller (A2) bij the adapter interface (Please note the position!)
   - Bridge or replace the diode CR5 by a wire
