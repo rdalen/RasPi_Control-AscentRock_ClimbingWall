@@ -34,7 +34,7 @@ Place the adapter interface in the empty PIC Controller socket.\
 **Watch again the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/c3dd3c93-2739-42d3-b39b-0a7e3bd388ef)
 
-2. To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced by a wire).
+2. To let the RasPi read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced by a wire).
 ![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
 ![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
 
