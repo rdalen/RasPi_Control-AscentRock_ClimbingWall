@@ -49,11 +49,14 @@ The control is made in Node-Red. For now, the control is very basic
   + The Incline + Button (the incline motor with 500ms delay to set the direction relay (K3) first)
   + The Incline - Button (with 500ms delay to set the direction relay (K3) first)
   + The Speed Button (25% of the max speed)
+  + To access Node-Red, type in browser: `http://<ip-address>:1880`
+
 ![Image](https://github.com/user-attachments/assets/7d8e421f-052d-4e50-84a8-b23413c0e593)
 + An User interface;
   +  Slider to control the speed of the speedmotor and stop button
   +  Incline + and Incline - buttons to control the Incline motor and a stop button
   +  Indication that the incline motor is running
+  +  To access Node-Red Dashboard , type in browser: `http://<ip-address>:1880/ui`
 ![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
 
 ## Commissioning of the Climbing wall
@@ -63,7 +66,7 @@ To put the climbing wall in operation
   - Bridge or replace the diode CR5 by a wire
 2. 
 
-Node-Red; type in browser
-`http://<ip-address>:1880`
+accessing Node-Red; type in browser
+`http://<ip-address>:1880`\
 Node-Red Dashboard; type in browser
 `http://<ip-address>:1880/ui`
