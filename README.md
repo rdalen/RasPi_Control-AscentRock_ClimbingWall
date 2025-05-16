@@ -14,7 +14,7 @@ In the control box you will find the following things:
   
 ![Image](https://github.com/user-attachments/assets/920325ef-27a8-4f6d-b610-b1c8df46e19a)
 
-On the Control & Sensor board there is a PIC controller that provides the local control.
+On the Control & Sensor board there is a PIC controller in a socket that provides the local control.
 **Watch the position of pin 1**
 ![Image](https://github.com/user-attachments/assets/00076dc4-0fa1-4953-9959-155c7547caa8)
 
