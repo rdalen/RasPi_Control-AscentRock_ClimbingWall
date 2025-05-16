@@ -63,6 +63,7 @@ The dashboard provides:
 
 
 ## Configure WIFI on the RasPi
+To get access to he RasPi the WIFI credentials must be entered first.
 - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
 - Power up the RasPi and wait a few minutes to boot up. Log in with `username: pi | password: raspberry`
 - Open Raspi-Config `sudo raspi-config`
