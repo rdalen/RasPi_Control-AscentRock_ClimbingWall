@@ -71,7 +71,7 @@ To get access to he RasPi the WIFI credentials must be entered first.
 ![Image](https://github.com/user-attachments/assets/a1c9d716-3f1b-4cd5-bf11-062dbb230d4a)
 - Select S1-Wireless LAN and then follow the on-screen instructions to enter your network’s SSID and password. When you’re done, select “Finish” on the main menu to close Raspi-Config.
 ![Image](https://github.com/user-attachments/assets/a823daf3-3cf0-4b75-8198-a495e948614d)
-- Finally, reboot the Raspberry Pi to apply the settings we’ve just changed.
+- Finally, reboot the Raspberry Pi to apply the changed settings.
 
 ### Test the WIFI connection
 To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
