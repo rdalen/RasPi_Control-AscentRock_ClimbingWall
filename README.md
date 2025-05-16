@@ -1,7 +1,10 @@
 # Raspberry Pi control for the Ascent FunRock Climbing wall
 This project makes it possible to control your [Ascent FunRock Rotating Climbing wall](https://www.youtube.com/watch?v=9913A6JC2e4) using a Raspberry Pi.
-The climbing wall is originally controlled by a windows computer via a serial interface.\
-There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer. 
+
+The climbing wall is originally controlled by a windows computer via a serial interface.
+
+There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer.
+
 In this project the PIC controller on the Control&sensor board in the Ascent Rock controlbox is replaces by a interface-adapter to a Raspberry Pi
 
 ## The Control Box 
@@ -31,13 +34,11 @@ Position of the adapter interface on the Control&Sensor board when the PIC Contr
 
 2. To read the ON/OFF status of the incline motor, the small SMD Diode CR5 must be bridge by a wire (or removed and replaced by a wire).
 ![Image](https://github.com/user-attachments/assets/ff3f1cff-c8b7-4272-9f4c-2c61ecfadbee)
-
 ![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
 
 3. The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the Control&Sensor board.\
 To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire to enable the solid-state relay to provide 220Vac to the motors
 ![Image](https://github.com/user-attachments/assets/ae8c4b25-6c92-446a-ac79-8f18d6242598)
-
 ![Image](https://github.com/user-attachments/assets/216d6d0c-3149-475c-9b34-b506e2e61128)
 
 ## The Raspberry Pi
@@ -89,10 +90,16 @@ To put the Climbing Wall in operation:
     - Bridge or replace the diode CR5 on the Control&Sensor board by a wire
     - Bridge pin 1 and pin 2 of the Safety sensors connector J7 on the Control&Sensor board.
 2. Power up the RasPi (it takes a few minutes to boot up).
-3. Connect the 220Vac mains to the ControlBox. If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
+3. Connect the 220Vac mains to the ControlBox. 
+    - If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
 4. Try to operate the Incline en Speed motors by the Test Buttons on The Control&Sensor board
 5. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors on screen
 
-## Disclaimer
-The owner of this repository disclaims any responsible for damage, harm or injuries made by using the information on this repository.\
-Use at your own risks. 
+## Safety & Disclaimer
+The maintainers of this repository disclaims any responsible for damage, harm or injuries made by using the information on this repository.
+
+Use at your own risks. For more information we kindly refer you to attached [LICENSE.md](LICENSE.md).
+
+- Do not modify the original boards in any way if you do not understand the end goal or original purpose of the components
+- Do not override any safety mechanisms
+- Do not allow for external network access: provide proper network security to ensure no unwanted commands are sent to the Climbing Wall
