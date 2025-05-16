@@ -39,7 +39,7 @@ Place the adapter interface in the empty PIC Controller socket.\
 ![Image](https://github.com/user-attachments/assets/869d436e-7250-483d-8569-17e05c424b0a)
 
 3. The (orginal) climbing wall has Safety sensors connected to J7 (and J11) of the Control&Sensor board.\
-To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire  so that the solid state relay can supply power to the motors
+To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire  so that the solid-state relay can supply power to the motors
 ![Image](https://github.com/user-attachments/assets/ae8c4b25-6c92-446a-ac79-8f18d6242598)
 ![Image](https://github.com/user-attachments/assets/216d6d0c-3149-475c-9b34-b506e2e61128)
 
