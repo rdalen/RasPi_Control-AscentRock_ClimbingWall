@@ -71,7 +71,7 @@ The dashboard provides:
 **Caution! Because the software does not include any safety feature, the <ins>only</ins> safety measures to stop the incline motor are two small mercury switches (S6 & S7) at the Control & Sensor Board that measure the end-positions of the Control Box.**
 
 ## Configure WIFI on the RasPi
-To get access to the RasPi must have the WIFI credentials of your WIFI network.
+To get access to the RasPi, it must have the WIFI credentials of your WIFI network.
 This could be pre-configured yet. If not they must be entered first.
 - Connect a HDMI Monitor and a USB-keyboard (or IR keyboard with USB Dongle) to the RasPi
 - Power up the RasPi (it takes few minutes to boot up). Log in with `username: pi | password: raspberry`
