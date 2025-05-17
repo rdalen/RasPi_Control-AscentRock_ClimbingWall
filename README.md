@@ -68,7 +68,7 @@ The dashboard provides:
   -  Incline + and Incline - buttons to control the Incline motor and a stop button
   -  Indication that the incline motor is running
 
-![Image](https://github.com/user-attachments/assets/d813da7f-671f-40a0-8b89-f332a3d1300d)
+![Image](https://github.com/user-attachments/assets/0995ece4-e2e1-4943-82c9-3606179fcacc)
 
 **Caution! Because the software does not include any safety feature, the <ins>only</ins> safety measures to stop the incline motor are two small mercury switches (S6 & S7) at the Control & Sensor Board that measure the end-positions of the Control Box.**
 
