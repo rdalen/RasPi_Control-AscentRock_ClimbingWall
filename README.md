@@ -64,7 +64,7 @@ It reads the three Test buttons at the Control & Sensor Board to test the Inclin
 
 Node-Red provides the user interface too. The Node-red Dashboard can be accessed via a browser at address: `http://<ip-address>:1880/ui`\
 The dashboard provides:
-  -  A Slider to control the speed of the speedmotor and stop button
+  -  A Slider to preset the speed of the speedmotor and ON/SET and STOP buttons to control the Speedmotor
   -  Incline + and Incline - buttons to control the Incline motor and a stop button
   -  Indication that the incline motor is running
 
