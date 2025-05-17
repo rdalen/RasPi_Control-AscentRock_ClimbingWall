@@ -108,4 +108,5 @@ Use at your own risks. For more information we kindly refer you to attached [LIC
 
 - Do not modify the original boards in any way if you do not understand the end goal or original purpose of the components
 - Do not override any safety mechanisms
+- Do not change the mounting position of the Control Box (because mercury end-position swiches are a part of the safety mechanism)
 - Do not allow for external network access: provide proper network security to ensure no unwanted commands are sent to the Climbing Wall
