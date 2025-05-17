@@ -48,6 +48,7 @@ In the picture you see the interface at the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
 The RasPi has small magnets at the back, so it can be easily attached in the Control Box (if the magnetic force is insufficient, the second set of magnets can be glued to the wall of the control box).
+![Image](https://github.com/user-attachments/assets/b9382118-2c62-4786-b26a-6eab785ae114)
 ![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
 
 ### Software
