@@ -1,6 +1,6 @@
 
 ## RasPi2-Climbingwall Configuration
-
+Use device; Raspi2 ModelB+ v1.2  
 Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software.  
 Insert MicroSD card 16Mb.  
 Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye.  
