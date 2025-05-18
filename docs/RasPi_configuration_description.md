@@ -1,8 +1,8 @@
 
-**RasPi2-Climbingwall Configuration
+## RasPi2-Climbingwall Configuration
 
-Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software/
-Insert MicroSD card 16Mb 
+Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software\
+Insert MicroSD card 16Mb\
 Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye
 
 Fill in;
@@ -33,7 +33,7 @@ Update & Upgrade; Update the package repositories and upgrade all packages;
 `sudo apt update 
 sudo apt upgrade `
 
-###Python
+### Python
 
 Check python version (python 3.11.2 is preinstalled in RPI OS Bulleye)
 `
@@ -85,7 +85,7 @@ Test of the python script is running;
 ps -ef | grep python
 `
 
-###Node-RED
+### Node-RED
 Install Node-red (or, if node If Node-RED is already installed, upgrade to the latest version);
 `
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
@@ -128,7 +128,7 @@ contextStorage: {
 `
 
 ---
-##ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier/)
+## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier/)
 
 In my.zerotier.com - create a new virtual network
 For AscentRock01, the networkID is xxx
