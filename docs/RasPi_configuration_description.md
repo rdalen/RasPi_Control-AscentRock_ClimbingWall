@@ -1,9 +1,9 @@
 
 ## RasPi2-Climbingwall Configuration
 
-Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software\
-Insert MicroSD card 16Mb\
-Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye
+Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software.
+Insert MicroSD card 16Mb.
+Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye.
 
 Fill in;
 Hostnaam; RasPi2-ClimbingWall
