@@ -6,26 +6,26 @@ Insert MicroSD card 16Mb.
 Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye.  
 
 Fill in;
-Hostnaam; RasPi2-ClimbingWall<br>
-Gebruikersnaam; pi  
-wachtwoord; raspberry<br>
-SSID; \<yourSSID><br>
-wachtwoord \<yourPW><br>
-SSH inschakelen - gebruik wachtwoord authenticatie
+Hostname; RasPi2-ClimbingWall  
+username; pi  
+password; raspberry  
+SSID; \<yourSSID>  
+password \<yourPW>  
+check SSH - use; password authentification
 
 
-Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite<br>
-Connect SDCard, Power USB micro<br>
-Power up RasPi & login from monitor/keyboard<br>
+Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite  
+Connect SDCard, Power USB micro  
+Power up RasPi & login from monitor/keyboard  
 
-Find out the IP addresses (inet)
+Find out the IP addresses
 `ifconfig`
-And give it a fixed IP addresses in the router
-Reboot 
+And give it a fixed IP addresses in the router  
+Reboot  
 `sudo reboot`
-and check;
+and check;  
 `ifconfig`
-and connect with RasPi (e.g. via the SSH client MobaXterm)
+and connect with RasPi (e.g. via the SSH client MobaXterm)  
 
 Expand the filesystem to maximum
 `sudo raspi-config
