@@ -55,7 +55,7 @@ sudo apt install git
 `  
 
 ### Node-RED
-Install Node-red (or, if node If Node-RED is already installed, upgrade to the latest version)  
+Install Node-red (or, if Node-RED is already installed, upgrade to the latest version)  
 `
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 `  
@@ -77,7 +77,7 @@ Test
 `
 http://<IP>:1880
 `  
-add nodes via Manage PAlette menu; node-red-dashboard, ui-led  
+add nodes via Manage Palette menu; node-red-dashboard, ui-led  
 
 To define the multiple storage option for context data - so Node-Red will save the context data and make it available after restarts - 
 add in  
