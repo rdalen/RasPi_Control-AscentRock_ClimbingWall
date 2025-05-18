@@ -19,21 +19,21 @@ Connect SDCard, Power USB micro
 Power up RasPi & login from monitor/keyboard  
 
 Find out the IP addresses
-`ifconfig`
+`ifconfig`  
 And give it a fixed IP addresses in the router  
 Reboot  
-`sudo reboot`
+`sudo reboot`  
 and check;  
-`ifconfig`
+`ifconfig`  
 and connect with RasPi (e.g. via the SSH client MobaXterm)  
 
-Expand the filesystem to maximum
+Expand the filesystem to maximum  
 `sudo raspi-config
-     menu>Advanced Options>Expand Filesystem`
+     menu>Advanced Options>Expand Filesystem`  
 
-Update & Upgrade; Update the package repositories and upgrade all packages; 
+Update & Upgrade; Update the package repositories and upgrade all packages;  
 `sudo apt update 
-sudo apt upgrade `
+sudo apt upgrade `  
 
 ### Python
 
