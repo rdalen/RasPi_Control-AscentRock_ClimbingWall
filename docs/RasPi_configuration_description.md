@@ -1,5 +1,5 @@
 
-##RasPi2-Climbingwall Configuration
+**RasPi2-Climbingwall Configuration
 
 Download Raspberrypi imager and run for windows ; https://www.raspberrypi.com/software/
 Insert MicroSD card 16Mb 
