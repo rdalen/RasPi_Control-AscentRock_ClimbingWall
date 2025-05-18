@@ -127,12 +127,13 @@ check the return massage
 200 join OK
 `  
 
-Go to the AscentRock01 network in the browser  
+Go to the AscentRock01 network in my.zerotier.com  
 Select the device RasPi2-ClimbingWall and click the Authorize button  
 The Address column gives deviceID within the ZeroTier network - Check on the RasPi  
 `
 sudo zerotier-cli status
 `  
+
 Click the Edit button in the Edit colomn and give it a name/description; RasPi2-ClimbingWall  
 
 The column “Managed IPs”  lists the  IP  in the virtual ZeroTier network to connect to RasPi2-ClimbingWall (may take a few moments)  
@@ -141,6 +142,7 @@ Check
 `
 sudo zerotier-cli listnetworks
 `  
+
 To test; connect in Windows or IPhone ZeroTier app to the Virtual network  
 - Node-Red; http://\<virtualIP>:1880  
 - Node-Red Dashboard; http://\<virtualIP>:1880/ui  
