@@ -102,7 +102,9 @@ To put the Climbing Wall in operation:
 3. Connect the 220Vac mains to the Control Box. If the pin 1 and pin 2 of the Safety sensor connector is correctly bridged the green LED DS3 will light up. So check this before continue.
 4. Try to operate the Incline en Speed motors by pressing the Test Buttons on The Control & Sensor Board longer then 500ms.
 5. Test the two end-positions of the incline motor. The mercury swiches must stop the incline motor at its end-positions (hardwired safety mechanism)
-6. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors from the screen. 
+6. Open in Windows the browser and open the Node-Red Dashboard `http://<ip-address>:1880/ui` to operate the Incline en Speed motors from the screen.
+
+[Happy climbing](https://www.youtube.com/watch?v=9913A6JC2e4)!
 
 ## Safety & Disclaimer
 The maintainers of this repository disclaim any responsibility for damage, harm or injuries made by using the information from this repository.
