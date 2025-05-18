@@ -32,7 +32,7 @@ Expand the filesystem to maximum
 menu>Advanced Options >Expand Filesystem`  
 
 Update & Upgrade; Update the package repositories and upgrade all packages;  
-`sudo apt update 
+`sudo apt update  
 sudo apt upgrade `  
 
 ### Python
