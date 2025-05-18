@@ -117,6 +117,7 @@ install the ZeroTier package
 `
 sudo apt install -y zerotier-one
 `  
+
 Join the created ZeroTier network  
 `
 sudo zerotier-cli join \<netwerkID>
