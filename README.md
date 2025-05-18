@@ -74,6 +74,12 @@ The dashboard provides:
 
 **Caution! Because the software does not include any safety feature, the <ins>only</ins> safety measures to stop the incline motor are two small mercury switches (S6 & S7) at the Control & Sensor Board that measure the end-positions of the Control Box.**
 
+### Maintenance & Support
+Installed on the RasPi is ZeroTier which allows secure remote login to the RasPi for Maintance and Support.  
+In the ZeroTier Server tab in the Node-Red dashboard, it is possible to turn the ZeroTier Server on and off so that full access control lies with local users
+
+
+
 ## Configure WIFI on the RasPi
 To get access to the RasPi, it must have the WIFI credentials of your WIFI network.
 This may already be pre-configured, if not, they will need to be entered first.
