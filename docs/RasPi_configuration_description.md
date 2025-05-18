@@ -65,7 +65,7 @@ node-red-start
 `  
 Test  
 `
-http://<IP>:1880
+http://<IP-address>:1880
 `  
 
 autostart Node-RED after every boot  
@@ -74,7 +74,7 @@ autostart Node-RED after every boot
 
 Test  
 `
-http://<IP>:1880
+http://<IP-address>:1880
 `  
 add nodes via Manage Palette menu; node-red-dashboard, ui-led  
 
@@ -144,6 +144,6 @@ sudo zerotier-cli listnetworks
 `  
 
 To test; connect in Windows or IPhone ZeroTier app to the Virtual network  
-- Node-Red; http://\<virtualIP>:1880  
-- Node-Red Dashboard; http://\<virtualIP>:1880/ui  
+- Node-Red; http://\<virtualIP-address>:1880  
+- Node-Red Dashboard; http://\<virtualIP-address>:1880/ui  
 - SSH session (e.g. SSH client MobaXterm)  
