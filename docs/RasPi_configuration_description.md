@@ -9,7 +9,7 @@ Fill in;
 Hostnaam; RasPi2-ClimbingWall<br>
 Gebruikersnaam; pi<br>
 wachtwoord; raspberry<br>
-SSID; <yourSSID><br>
+SSID; \<yourSSID><br>
 wachtwoord <yourPW><br>
 SSH inschakelen - gebruik wachtwoord authenticatie
 
