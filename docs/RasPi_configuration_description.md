@@ -37,7 +37,7 @@ Update & Upgrade; Update the package repositories and upgrade all packages
 
 ### Python
 
-Check python version (python 3.11.2 is preinstalled in RPI OS Bulleye)  
+Check python version (python 3.9.2 is preinstalled in RPI OS Bullseye)  
 `
 python -V
 `  
