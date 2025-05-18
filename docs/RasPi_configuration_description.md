@@ -10,7 +10,7 @@ Hostname; RasPi2-ClimbingWall
 username; pi  
 password; raspberry  
 SSID; \<yourSSID>  
-password \<yourPW>  
+password; \<yourPW>  
 In SSH tab - use; password authentification
 
 
@@ -23,7 +23,7 @@ Find out the IP addresses
 And give it a fixed IP addresses in the router  
 Reboot  
 `sudo reboot`  
-and check;  
+and check  
 `ifconfig`  
 and connect with RasPi (e.g. via the SSH client MobaXterm)  
 
@@ -31,95 +31,59 @@ Expand the filesystem to maximum
 `sudo raspi-config  
 menu>Advanced Options >Expand Filesystem`  
 
-Update & Upgrade; Update the package repositories and upgrade all packages;  
+Update & Upgrade; Update the package repositories and upgrade all packages  
 `sudo apt update`  
 `sudo apt upgrade`
 
 ### Python
 
-Check python version (python 3.11.2 is preinstalled in RPI OS Bulleye)
+Check python version (python 3.11.2 is preinstalled in RPI OS Bulleye)  
 `
 python -V
-`
-Install PIP (Package Installer for Python)
+`  
+Install PIP (Package Installer for Python)  
 `
 sudo apt install python3-pip
-`
-and check
+`  
+and check  
 `
 pip --version
-`
-Install git; 
+`  
+Install git  
 `
 sudo apt install git
-`
-
-Optional; Install the virtual python environment functionality; 
-`
-sudo apt install python3-venv
-`
-Create a virtual environment in the directory MyVenv; 
-`
-python3 -m venv MyVent
-`
-Activate the environment; 
-`
-source MyVent/bin/activate
-`
-To test active virtual environment; 
-`
-which python3
-`
-Leave the environment; 
-`
-deactivate
-`
-Reactivate the environment; 
-`
-source MyVent/bin/activate
-`
-For automatic startup on reboot; make shell script, test it and run on reboot by cron; 
-`
-crontab -e
-`
-Test of the python script is running; 
-`
-ps -ef | grep python
-`
+`  
 
 ### Node-RED
-Install Node-red (or, if node If Node-RED is already installed, upgrade to the latest version);
+Install Node-red (or, if node If Node-RED is already installed, upgrade to the latest version)  
 `
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-`
-
-Start Node-RED; 
+`  
+Start Node-RED  
 `
 node-red-start
-`
-
-Test;
-```
-http://<IP>:1880
-```
-
-autostart Node-RED after every boot
-`
-sudo systemctl enable nodered.service
-sudo reboot
-`
-open
+`  
+Test  
 `
 http://<IP>:1880
-`
-add nodes; node-red-dashboard, ui-led
+`  
 
----
+autostart Node-RED after every boot  
+
+`sudo systemctl enable nodered.service`  
+`sudo reboot`  
+
+Test  
+`
+http://<IP>:1880
+`  
+add nodes via Manage PAlette menu; node-red-dashboard, ui-led  
+
 To define the multiple storage option for context data - so Node-Red will save the context data and make it available after restarts - 
-add in 
+add in  
 `
 sudo nano "/home/pi/.node-red/settings.js"
-`
+`  
  the following definition on row 270     
 `
 contextStorage: {
@@ -127,7 +91,7 @@ contextStorage: {
                       memoryOnly: { module: 'memory' },
                       file: { module: 'localfilesystem' }
                },
-`
+`  
 
 ---
 ## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier/)
