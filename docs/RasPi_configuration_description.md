@@ -97,7 +97,7 @@ contextStorage: {
 ---
 ## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier))
 
-In my.zerotier.com - create a new virtual network AscentRock01 
+In my.zerotier.com - create a new virtual network AscentRock01  
 For AscentRock01, the networkID is \<netwerkID>  
 
 To install ZeroTier directly from the repository, add the GPG key - so download the GPG key first  
@@ -107,7 +107,6 @@ curl https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%4
 Build the URL for the ZeroTier repository  
 `
 RELEASE=$(lsb_release -cs)
-
 echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list
 `  
 update the package list  
