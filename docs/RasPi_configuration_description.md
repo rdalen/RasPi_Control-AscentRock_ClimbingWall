@@ -105,7 +105,7 @@ curl https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%4
 `  
 
 Build the URL for the ZeroTier repository  
-`RELEASE=$(lsb_release -cs)`
+`RELEASE=$(lsb_release -cs)`  
 `echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list`
 
 update the package list  
