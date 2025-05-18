@@ -11,7 +11,7 @@ username; pi
 password; raspberry  
 SSID; \<yourSSID>  
 password \<yourPW>  
-check SSH - use; password authentification
+In SSH tab - use; password authentification
 
 
 Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite  
