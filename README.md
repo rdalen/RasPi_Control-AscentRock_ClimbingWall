@@ -54,6 +54,15 @@ The RasPi has small magnets at the back, so it can be easily attached in the Con
 
 ![Image](https://github.com/user-attachments/assets/847f3481-7357-4767-9331-9fa5581eb1a5)
 
+## Configure WIFI on the RasPi
+WIFI is pre-configured on your RasPi. If this does not work, see this [description](docs/RasPi_WIFI_config.md)  
+
+To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
+![Image](https://github.com/user-attachments/assets/748777c5-0e88-4cd4-8c2e-074695c4cb0c)
+Next; give the RasPi a static IP adress in your Router (e.g. in the DHCP settings-menu make a IP reservation) and Reboot the RasPi  
+`sudo reboot`  
+and check the IP again. Now you can access the RasPi wireless. Any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
+
 ### Software
 The control is made in Node-Red. For now, the control is very basic.\
 Node-red can be accessed via a browser at address: `http://<IP-address>:1880`\
@@ -78,14 +87,6 @@ The dashboard provides:
 Installed on the RasPi is a ZeroTier-Server which allows secure remote login to the RasPi for Maintance and Support.  
 In the ZeroTier Server tab in the Node-Red dashboard, it is possible to turn the ZeroTier-Server ON and OFF so that full access control lies with local users of the Climbing Wall
 ![Image](https://github.com/user-attachments/assets/6e4daf0a-986d-4880-b6a0-805059118823)
-
-## Configure WIFI on the RasPi
-WIFI is pre-configured on your RasPi. If this does not work, see this [description](docs/RasPi_WIFI_config.md)  
-
-To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
-![Image](https://github.com/user-attachments/assets/748777c5-0e88-4cd4-8c2e-074695c4cb0c)
-Next; give the RasPi a static IP adress in your Router (e.g. in the DHCP settings-menu make a IP reservation) and Reboot the RasPi `sudo reboot` and check the IP again. 
-Now you can access the RasPi wireless. Any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
 
 ## Commissioning of the Climbing wall
 To put the Climbing Wall in operation:
