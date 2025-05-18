@@ -44,6 +44,8 @@ To test the motors, pin 1 and pin 2 of J7 must be bridged by a jumper or wire  s
 ![Image](https://github.com/user-attachments/assets/216d6d0c-3149-475c-9b34-b506e2e61128)
 
 ## The Raspberry Pi
+The RasPi configuration is given [here](docs/RasPi_configuration_description.md)  
+
 In the picture you see the interface at the RasPi side of the interface cable.
 ![Image](https://github.com/user-attachments/assets/f44d5229-a0ef-4c90-9e75-f0dc811b8678)
 
