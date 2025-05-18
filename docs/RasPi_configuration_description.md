@@ -28,8 +28,8 @@ and check;
 and connect with RasPi (e.g. via the SSH client MobaXterm)  
 
 Expand the filesystem to maximum  
-`sudo raspi-config
-     menu>Advanced Options>Expand Filesystem`  
+`sudo raspi-config  
+menu>Advanced Options>Expand Filesystem`  
 
 Update & Upgrade; Update the package repositories and upgrade all packages;  
 `sudo apt update 
