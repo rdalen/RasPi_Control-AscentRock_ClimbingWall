@@ -84,14 +84,13 @@ add in
 `
 sudo nano "/home/pi/.node-red/settings.js"
 `  
- the following definition on row 270     
-`
-contextStorage: {
-                      default: "memoryOnly",
-                      memoryOnly: { module: 'memory' },
-                      file: { module: 'localfilesystem' }
-               },
-`  
+the following definition on row 270     
+`contextStorage: {
+    default: "memoryOnly",
+    memoryOnly: { module: 'memory' },
+    file: { module: 'localfilesystem' }
+},`
+
 
 ---
 ## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier/)
