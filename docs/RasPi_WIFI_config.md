@@ -11,9 +11,11 @@ This may already be pre-configured, if not, they will need to be entered first.
 - Finally, reboot the Raspberry Pi to apply the changed settings.
 
 ### Test the WIFI connection
-To check that the WiFi connection has been established correctly type type in: `ifconfig wlan0` to see the IP address
+To check that the WiFi connection has been established correctly type type in  
+`ifconfig wlan0`  
+to see the IP address
 ![Image](https://github.com/user-attachments/assets/748777c5-0e88-4cd4-8c2e-074695c4cb0c)
+
 Next; give the RasPi a static IP adress in your Router (e.g. in the DHCP settings-menu make a IP reservation) and Reboot the RasPi  
 `sudo reboot`  
-and check the IP again. 
-Now you can access the RasPi wireless. Any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
+and check the IP again. Now you can access the RasPi wireless. Any SSH client can be used such as [PuTTY](https://www.putty.org/) on Windows  
