@@ -7,18 +7,20 @@ Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi O
 
 Fill in;
 Hostnaam; RasPi2-ClimbingWall<br>
-Gebruikersnaam; pi<br>
+Gebruikersnaam; pi  
 wachtwoord; raspberry<br>
 SSID; \<yourSSID><br>
-wachtwoord <yourPW><br>
+wachtwoord \<yourPW><br>
 SSH inschakelen - gebruik wachtwoord authenticatie
 
 
-Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite
-Connect SDCard, Power USB micro.
-Power up RasPi & login from monitor/keyboard 
+Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite<br>
+Connect SDCard, Power USB micro<br>
+Power up RasPi & login from monitor/keyboard<br>
 
-Find out the IP addresses (inet) - give it a fixed IP addresses in the router
+Find out the IP addresses (inet)
+`ifconfig`
+And give it a fixed IP addresses in the router
 Reboot 
 `sudo reboot`
 and check;
