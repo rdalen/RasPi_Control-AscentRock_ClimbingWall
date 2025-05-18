@@ -6,7 +6,7 @@ The climbing wall is originally controlled by a windows computer via a serial in
 There are several [projects](https://github.com/james-schaefer/climbing_wall) that hack the serial protocol to enable control from e.g. a linux computer.
 
 In this project the PIC controller on the Control & Sensor Board in the Ascent Rock Control Box is replaced by a interface-adapter to a Raspberry Pi. 
-See [here](xx) for a short demo with a Lego model of the Climbing wall :-)
+See [here](xx) a little demo with a Lego model of the climbing wall here :-)
 
 Since I couldn't find electronic schematics, I made these myself through reverse engineering. So there may be some errors in the diagrams!
 
