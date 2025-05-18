@@ -6,11 +6,11 @@ Insert MicroSD card 16Mb.<br>
 Hence; To avoid future compatibility issues (eg SenseHAT), select Raspberry pi OS LITE 32b Bullseye.
 
 Fill in;
-Hostnaam; RasPi2-ClimbingWall
-Gebruikersnaam; pi
-wachtwoord; raspberry
-SSID; <xxx>
-wachtwoord <xxx>
+Hostnaam; RasPi2-ClimbingWall<br>
+Gebruikersnaam; pi<br>
+wachtwoord; raspberry<br>
+SSID; <yourSSID><br>
+wachtwoord <yourPW><br>
 SSH inschakelen - gebruik wachtwoord authenticatie
 
 
