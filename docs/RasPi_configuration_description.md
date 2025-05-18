@@ -18,7 +18,7 @@ Flash Raspberry Pi OS image;  Raspberry Pi OS Bullseye 32b Lite
 Connect SDCard, Power USB micro  
 Power up RasPi & login from monitor/keyboard  
 
-Find out the IP addresses
+Find out the IP addresses  
 `ifconfig`  
 And give it a fixed IP addresses in the router  
 Reboot  
