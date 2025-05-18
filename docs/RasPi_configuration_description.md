@@ -97,7 +97,7 @@ contextStorage: {
 ---
 ## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier))
 
-In my.zerotier.com - create a new virtual network  
+In my.zerotier.com - create a new virtual network AscentRock01 
 For AscentRock01, the networkID is \<netwerkID>  
 
 To install ZeroTier directly from the repository, add the GPG key - so download the GPG key first  
