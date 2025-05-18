@@ -69,7 +69,6 @@ http://<IP>:1880
 `  
 
 autostart Node-RED after every boot  
-
 `sudo systemctl enable nodered.service`  
 `sudo reboot`  
 
@@ -105,10 +104,10 @@ To install ZeroTier directly from the repository, add the GPG key - so download 
 curl https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%40zerotier.com.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/zerotierone-archive-keyring.gpg >/dev/null
 `  
 Build the URL for the ZeroTier repository  
-`
-RELEASE=$(lsb_release -cs)
-echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list
-`  
+
+`RELEASE=$(lsb_release -cs)`
+`echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list`
+
 update the package list  
 `
 sudo apt update
