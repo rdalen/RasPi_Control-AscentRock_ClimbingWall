@@ -95,56 +95,53 @@ contextStorage: {
 
 
 ---
-## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier/)
+## ZeroTier (see [instruction](https://pimylifeup.com/raspberry-pi-zerotier))
 
-In my.zerotier.com - create a new virtual network
-For AscentRock01, the networkID is xxx
+In my.zerotier.com - create a new virtual network  
+For AscentRock01, the networkID is \<netwerkID>  
 
-To install ZeroTier directly from the repository, add the GPG key - so download the GPG key first:
+To install ZeroTier directly from the repository, add the GPG key - so download the GPG key first  
 `
 curl https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%40zerotier.com.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/zerotierone-archive-keyring.gpg >/dev/null
-`
-Build the URL for the ZeroTier repository;
+`  
+Build the URL for the ZeroTier repository  
 `
 RELEASE=$(lsb_release -cs)
+
 echo "deb [signed-by=/usr/share/keyrings/zerotierone-archive-keyring.gpg] http://download.zerotier.com/debian/$RELEASE $RELEASE main" | sudo tee /etc/apt/sources.list.d/zerotier.list
-`
-update the package list
+`  
+update the package list  
 `
 sudo apt update
-`
-install the ZeroTier package:
+`  
+install the ZeroTier package  
 `
 sudo apt install -y zerotier-one
+`  
+Join the created ZeroTier network  
 `
-Join the created ZeroTier network
-`
-sudo zerotier-cli join 233ccaac278cacf4
-`
-check the return massage; 
+sudo zerotier-cli join \<netwerkID>
+`  
+check the return massage  
 `
 200 join OK
-`
+`  
 
-Go to the AscentRock01 network in the browser
-Select the device RasPi2-ClimbingWall and click the Authorize button
-The Address column gives deviceID within the ZeroTier network - Check on the RasPi;
+Go to the AscentRock01 network in the browser  
+Select the device RasPi2-ClimbingWall and click the Authorize button  
+The Address column gives deviceID within the ZeroTier network - Check on the RasPi  
 `
 sudo zerotier-cli status
-`
-Click the Edit button in the Edit colomn and give it a name/description; RasPi2-ClimbingWall
+`  
+Click the Edit button in the Edit colomn and give it a name/description; RasPi2-ClimbingWall  
 
-The column “Managed IPs”  lists the  IP  in the virtual ZeroTier network to connect to RasPi2-ClimbingWall (may take a few moments)
-The RasPi2-ClimbingWall IP is <virtualIP>
-Check:
+The column “Managed IPs”  lists the  IP  in the virtual ZeroTier network to connect to RasPi2-ClimbingWall (may take a few moments)  
+The RasPi2-ClimbingWall IP is \<virtualIP>  
+Check  
 `
 sudo zerotier-cli listnetworks
-`
-To test; connect in Windows or IPhone ZeroTier app to the Virtual network
-- Node-Red; http://<virtualIP>:1880
-- Node-Red Dashboard; http://<virtualIP>:1880/ui
-- SSH session (e.g. SSH client MobaXterm)
-
-
-  
-
+`  
+To test; connect in Windows or IPhone ZeroTier app to the Virtual network  
+- Node-Red; http://\<virtualIP>:1880  
+- Node-Red Dashboard; http://\<virtualIP>:1880/ui  
+- SSH session (e.g. SSH client MobaXterm)  
