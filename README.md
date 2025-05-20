@@ -1,4 +1,6 @@
 # Raspberry Pi control for the Ascent FunRock Rotating Climbing Wall
+
+![Image](https://github.com/user-attachments/assets/8acd1aac-b8fc-4ed2-9202-45d1c159e223)
 This project makes it possible to control your [Ascent FunRock Rotating Climbing Wall](https://www.highwaygames.com/arcade-machines/fun-rock-8735/)
 using a Raspberry Pi. 
 
